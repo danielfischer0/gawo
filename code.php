@@ -1,11 +1,4 @@
 <?php
-    /*if($_SERVER['REQUEST_METHOD'] == 'POST') {
-      $gebe = $_POST('gebe');
-      $nehme = $_POST('nehme');
-      echo $gebe;
-      echo $nehme;
-      $massiv = array($gebe => $nehme);
-}*/
 echo "<html>
 <head>
 <meta charset=\"utf-8\">
@@ -23,10 +16,18 @@ Hier ist möglich miteinander GaWo - veranstaltungen zu tauschen.
 </body>
 </html>
 ";
-//if($_SERVER['REQUEST_METHOD'] == 'POST') {
-  $gebe = $_POST('gebe');
-  $nehme = $_POST('nehme');
-  echo $gebe;
-  echo $nehme;
-  $massiv = array($gebe => $nehme);//}
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+ $gebe = ($_POST['gebe']);
+ $nehme = ($_POST['nehme']);
+ /*$htmlfront = '<html><head><meta charset="utf-8"></head><body>';
+ $htmlend = '</body></html>';
+ echo $htmlfront.=$gebe.=$htmlend;
+ echo $htmlfront.=$nehme.=$htmlend;*/
+ echo $gebe;
+ echo $nehme;
+ /*$massiv = array($gebe => $nehme);
+ for ($i=0; $i>count($massiv); $i++) {
+   echo $massiv[$i];
+ }*/
+}
 ?>
