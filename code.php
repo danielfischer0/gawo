@@ -5,7 +5,7 @@ echo "<html>
 </head>
 <body>
 <h1>GaWo - Tausch</h1>
-Hier ist möglich miteinander GaWo - veranstaltungen zu tauschen.
+Hier ist möglich miteinandeasdf - veranstaltungen zu tauschen.
 <br>
 <form action=\"/code.php\" method=\"post\">
   <input type=\"text\" name=\"gebe\" value=\"Möchte abgeben\">
