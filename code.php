@@ -4,8 +4,8 @@ echo "<html>
 <meta charset=\"utf-8\">
 </head>
 <body>
-<h1>GaWo - Tausch</h1>
-Hier ist möglich miteinandeasdf - veranstaltungen zu tauschen.
+<h1>GaWo - Tah</h1>
+Hier ist möglich m df - veranstaltungen zu tauschen.
 <br>
 <form action=\"/code.php\" method=\"post\">
   <input type=\"text\" name=\"gebe\" value=\"Möchte abgeben\">
